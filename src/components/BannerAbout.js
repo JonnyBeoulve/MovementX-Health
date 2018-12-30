@@ -2,7 +2,7 @@ import React from 'react'
 
 /* This is the banner for the About page. */
 const BannerAbout = props => (
-    <section id="banner" className="style2">
+    <section id="banner" className="style1">
         <div className="inner">
             <header className="major">
                 <h1>About</h1>

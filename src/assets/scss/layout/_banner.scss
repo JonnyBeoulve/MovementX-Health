@@ -2,7 +2,7 @@
 
 	#banner {
 		@include vendor('align-items', 'center');
-		@include vendor('background-image', 'url("../images/banner.jpg")');
+		@include vendor('background-image', 'url("../images/banner01.jpg")');
 		@include vendor('display', 'flex');
 		@include padding(4em, 0, (2em, 0, 0, 0));
 		background-attachment: fixed;
@@ -26,7 +26,7 @@
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.85;
+			opacity: 0.7;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -92,16 +92,26 @@
 			min-height: 30em;
 
 			&.alt {
-				opacity: 0.75;
+				opacity: 0.65;
 			}
 		}
 
-		&.style1 { &:after { background-color: _palette(accent1); } }
-		&.style2 { &:after { background-color: _palette(accent2); } }
+		&.style1 { 
+			@include vendor('background-image', 'url("../images/banner02.jpg")');
+		} 
+
+		&.style2 { 
+			@include vendor('background-image', 'url("../images/banner03.jpg")');
+		}
+
 		&.style3 { &:after { background-color: _palette(accent3); } }
+
 		&.style4 { &:after { background-color: _palette(accent4); } }
+
 		&.style5 { &:after { background-color: _palette(accent5); } }
+
 		&.style6 { &:after { background-color: _palette(accent6); } }
+		
 
 		.body.is-loading & {
 			&:after {
