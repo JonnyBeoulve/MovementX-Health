@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-forty-v2",
-  "description": "Gatsby Starter - Forty V2",
-  "version": "1.0.0",
-  "author": "Hunter Chang",
+  "name": "movementx-health",
+  "description": "This project will serve as a blog for health articles published by the doctors of physical therapy at MovementX. The tech stach includes Gatsby, React, GraphQL, SCSS, HTML5, and more. Its primary purpose will be for SEO efforts that refer readers to the primary MovementX platform.",
+  "version": "0.1.0",
+  "author": "Jonathan Leack, Hunter Chang",
   "dependencies": {
     "gatsby": "^2.0.0",
     "gatsby-plugin-manifest": "^2.0.2",
@@ -29,6 +29,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/JonnyBeoulve/MovementX-Health"
   }
 }
