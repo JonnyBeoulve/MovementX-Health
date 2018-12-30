@@ -1,7 +1,7 @@
 import React from 'react'
 
 /* This is the banner for the Services page. */
-const BannerLanding = props => (
+const BannerServices = props => (
     <section id="banner" className="style2">
         <div className="inner">
             <header className="major">
@@ -15,4 +15,4 @@ const BannerLanding = props => (
     </section>
 )
 
-export default BannerLanding
+export default BannerServices
