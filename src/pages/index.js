@@ -11,16 +11,17 @@ import pic04 from '../assets/images/pic04.jpg'
 import pic05 from '../assets/images/pic05.jpg'
 import pic06 from '../assets/images/pic06.jpg'
 
+/* This is the Home page. */
 class HomeIndex extends React.Component {
     render() {
 
         return (
             <Layout>
                 <Helmet
-                    title="Gatsby Starter - Forty"
+                    title="MovementX Health"
                     meta={[
-                        { name: 'description', content: 'Sample' },
-                        { name: 'keywords', content: 'sample, something' },
+                        { name: 'description', content: 'A professional blog for physical therapy health information.' },
+                        { name: 'keywords', content: 'physical therapy, health, pt, doctor' },
                     ]}
                 >
                 </Helmet>
