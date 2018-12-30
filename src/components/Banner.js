@@ -11,7 +11,7 @@ const Banner = props => (
                 <p>Our team of licensed physical therapists are here<br />
                 to help you live a happier and healthier life.</p>
                 <ul className="actions">
-                    <li><a href="#one" className="button next scrolly">Get Started</a></li>
+                    <li><a href="#one" className="button next scrolly">Read More</a></li>
                 </ul>
             </div>
         </div>
