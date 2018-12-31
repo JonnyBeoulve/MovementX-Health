@@ -1,5 +1,7 @@
 import React from 'react'
 
+import mxlogo from '../assets/images/mxlogo.png'
+
 /* The global footer for the app with social media links. */
 const Footer = props => (
     <footer id="footer">
@@ -9,7 +11,7 @@ const Footer = props => (
                 <li><a href="https://www.linkedin.com/company/movementx/" className="icon alt fa-linkedin"><span className="label">LinkedIn</span></a></li>
             </ul>
             <ul className="copyright">
-                <li>&copy; MovementX 2019</li>
+                <li><img className="footer-logo" src={mxlogo} alt="MovementX logo" /><span className="footer-text"> MovementX &copy;2019</span></li>
             </ul>
         </div>
     </footer>
