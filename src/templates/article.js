@@ -42,6 +42,7 @@ export default function Template({ data }) {
   )
 }
 
+/* Query for markdown data. */
 export const articleQuery = graphql`
   query ArticleByPath($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {

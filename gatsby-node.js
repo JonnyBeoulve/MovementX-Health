@@ -1,8 +1,8 @@
 const path = require('path')
 
 /* Use CreatePages API to create and register pages using template file. */
-exports.createPages = ({boundActionCreators, graphql}) => {
-    const { createPage } = boundActionCreators
+exports.createPages = ({ actions, graphql }) => {
+    const { createPage } = actions
 
     const articleTemplate = path.resolve('src/templates/article.js')
 
