@@ -30,8 +30,8 @@ class HomeIndex extends React.Component {
                     <section id="one" className="tiles">
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
-                                <h3>Article 1</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <h3>Healthy living</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing...</p>
                             </header>
                             <Link to="/healthy-living" className="link primary"></Link>
                         </article>
