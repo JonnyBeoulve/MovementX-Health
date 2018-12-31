@@ -29,23 +29,23 @@ const Contact = props => (
                     <div className="contact-method">
                         <span className="icon alt fa-envelope"></span>
                         <h3>Email</h3>
-                        <a href="#">info@movement-x.com</a>
+                        <p>info@movement-x.com</p>
                     </div>
                 </section>
                 <section>
                     <div className="contact-method">
                         <span className="icon alt fa-phone"></span>
                         <h3>Phone</h3>
-                        <span>(000) 000-0000</span>
+                        <p>(000) 000-0000</p>
                     </div>
                 </section>
                 <section>
                     <div className="contact-method">
                         <span className="icon alt fa-home"></span>
                         <h3>Address</h3>
-                        <span>1234 Somewhere Road #5432<br />
+                        <p>1234 Somewhere Road #5432<br />
                         Portland, OR 97035<br />
-                        United States of America</span>
+                        United States of America</p>
                     </div>
                 </section>
             </section>

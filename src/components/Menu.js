@@ -16,7 +16,7 @@ const Menu = props => (
                 <li><a href="https://movement-x.com/" className="button special fit">Get Moving</a></li>
             </ul>
         </div>
-        <a className="close" onClick={props.onToggleMenu} href="javascript:;">Close</a>
+        <span className="close" onClick={props.onToggleMenu}>Close</span>
     </nav>
 )
 

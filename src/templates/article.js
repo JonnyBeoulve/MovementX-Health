@@ -15,14 +15,18 @@ export default function Template({ data }) {
       <div id="main" className="alt">
           <section id="one">
               <div className="inner">
-                  <header className="major">
-                      <h1>{article.frontmatter.title}</h1>
-                  </header>
-                  <img className="article-header" src={pic11} alt="Physical therapy health" />
-                  <h4>
-                    Written by {article.frontmatter.author} on {article.frontmatter.date}
-                  </h4>
-                  <div dangerouslySetInnerHTML={{ __html: article.html }} />
+                <header className="major">
+                    <h1>{article.frontmatter.title}</h1>
+                </header>
+                <img className="article-header" src={pic11} alt="Physical therapy health" />
+                <h4>
+                  Written by {article.frontmatter.author} on {article.frontmatter.date}
+                </h4>
+                <div dangerouslySetInnerHTML={{ __html: article.html }} />
+                <hr />
+                <aside>
+                  <p>Tags: {article.frontmatter.tags}</p>
+                </aside>
               </div>
           </section>
          <section id="two">
@@ -32,7 +36,7 @@ export default function Template({ data }) {
                 </header>
                 <p>Sign up within five minutes and browse physical therapists in your area.</p>
                 <ul className="actions">
-                    <li><a href="https://movement-x.com/" target="_blank" className="button next">Get Moving</a></li>
+                    <li><a href="https://movement-x.com/" className="button next">Get Moving</a></li>
                 </ul>
             </div>
         </section>
@@ -47,9 +51,11 @@ export const articleQuery = graphql`
       html
       frontmatter {
         path
+        date
         title
         author
-        date
+        tags
+        image1
       }
     }
   }

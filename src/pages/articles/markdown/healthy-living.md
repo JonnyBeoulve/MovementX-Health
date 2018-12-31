@@ -2,7 +2,8 @@
 path: "/healthy-living"
 date: "2018-12-30"
 title: "Healthy Living"
-author: "Jonathan Leack"
+author: "Dr. Movement X"
+tags: "physical therapy, oregon"
 image1: "healthy-living.jpeg"
 ---
 
