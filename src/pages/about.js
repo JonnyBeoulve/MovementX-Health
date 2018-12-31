@@ -26,7 +26,7 @@ const About = props => (
             </section>
             <section id="two" className="spotlights">
                 <section>
-                    <Link to="/generic" className="image">
+                    <Link to="/articles" className="image">
                         <img src={pic01} alt="" />
                     </Link>
                     <div className="content">
@@ -39,7 +39,7 @@ const About = props => (
                     </div>
                 </section>
                 <section>
-                    <Link to="/generic" className="image">
+                    <Link to="/articles" className="image">
                         <img src={pic02} alt="" />
                     </Link>
                     <div className="content">
@@ -52,7 +52,7 @@ const About = props => (
                     </div>
                 </section>
                 <section>
-                    <Link to="/generic" className="image">
+                    <Link to="/articles" className="image">
                         <img src={pic03} alt="" />
                     </Link>
                     <div className="content">

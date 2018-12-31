@@ -19,7 +19,7 @@ const Services = props => (
         <div id="main">
             <section id="two" className="spotlights">
                 <section>
-                    <Link to="/generic" className="image">
+                    <Link to="/articles" className="image">
                         <img src={pic04} alt="" />
                     </Link>
                     <div className="content">
@@ -32,7 +32,7 @@ const Services = props => (
                     </div>
                 </section>
                 <section>
-                    <Link to="/generic" className="image">
+                    <Link to="/articles" className="image">
                         <img src={pic05} alt="" />
                     </Link>
                     <div className="content">
@@ -45,7 +45,7 @@ const Services = props => (
                     </div>
                 </section>
                 <section>
-                    <Link to="/generic" className="image">
+                    <Link to="/articles" className="image">
                         <img src={pic06} alt="" />
                     </Link>
                     <div className="content">
