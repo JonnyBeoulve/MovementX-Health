@@ -1,10 +1,10 @@
 ---
-path: "/healthy-living"
-date: "2018-12-30"
-title: "Healthy Living"
+path: "/the-best-stretches"
+date: "2018-12-31"
+title: "The 10 Best Stretches For Your Lower Back"
 author: "Dr. Movement X"
-tags: "physical therapy, oregon"
-image1: "healthy-living.jpg"
+tags: "physical therapy, washington d.c."
+image1: "the-best-stretches.jpg"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et aliquet mi. Sed tristique interdum leo, at accumsan elit accumsan volutpat. Proin bibendum turpis vitae mauris volutpat cursus. In venenatis convallis dictum. Donec ac ante placerat, luctus velit vitae, ornare velit. Aliquam gravida hendrerit ultrices. Fusce maximus leo ut pellentesque cursus. Donec ac cursus sapien, id auctor ligula. Duis mattis bibendum nunc ut semper. Aliquam nec malesuada libero. Sed placerat risus et quam congue, a iaculis ex ullamcorper. Duis fringilla neque feugiat malesuada fermentum. Curabitur scelerisque euismod auctor. In et lectus lobortis, dictum nunc eget, sagittis ante.

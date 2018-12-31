@@ -2,13 +2,10 @@ import React from 'react'
 import { graphql } from 'gatsby'
 
 import Layout from '../components/layout'
-import pic11 from '../pages/articles/images/healthy-living.jpg'
 
 /* Define the template for an article. */
 export default function Template({ data }) {
   const article = data.markdownRemark
-
-  console.log(pic11);
 
   return (
     <Layout>
@@ -18,7 +15,7 @@ export default function Template({ data }) {
                 <header className="major">
                     <h1>{article.frontmatter.title}</h1>
                 </header>
-                <img className="article-header" src={pic11} alt="Physical therapy health" />
+                <img className="article-header" src={require(`../pages/articles/images/${article.frontmatter.image1}`)} alt="Physical therapy health" />
                 <h4>
                   Written by {article.frontmatter.author} on {article.frontmatter.date}
                 </h4>

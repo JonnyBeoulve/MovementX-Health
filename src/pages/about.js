@@ -32,7 +32,7 @@ const About = props => (
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Quality over Quantity, Precision over Generalization.</h3>
+                                <h3>Quality over Quantity</h3>
                             </header>
                             <p>Healthcare is about caring for your health, not about productivity and cost. We provide direct, one-on-one care precisely tailored to you and take as much time with you as we need.</p>
                         </div>
@@ -45,7 +45,7 @@ const About = props => (
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Simplicity and Transparency.</h3>
+                                <h3>Simplicity and Transparency</h3>
                             </header>
                             <p>Prior to confirming your session, you will know who you are seeing (including their background and specialties), where you will be seeing them, and how much your session will cost. Once you confirm, the rest is on us.</p>
                         </div>

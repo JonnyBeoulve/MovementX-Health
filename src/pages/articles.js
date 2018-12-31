@@ -2,6 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import { Link } from 'gatsby'
+import { graphql } from 'gatsby'
 
 /* This page will list all articles. */
 const Articles = ({data}) => (
@@ -19,6 +20,7 @@ const Articles = ({data}) => (
                     <p>Below you will find various articles written by our doctors of physical therapy at MovementX.</p>
                     {data.allMarkdownRemark.edges.map(article => (
                         <div key={article.node.id}>
+                            <img className="article-image-preview" src={require(`../pages/articles/images/${article.node.frontmatter.image1}`)} alt="MovementX Health" />
                             <h3>{article.node.frontmatter.title}</h3>
                             <small>Article written by {article.node.frontmatter.author} on {article.node.frontmatter.date}</small>
                             <br />
@@ -42,9 +44,10 @@ export const pageQuery = graphql`
                 node {
                     frontmatter {
                         path
-                        title
                         date
+                        title
                         author
+                        image1
                     }
                     excerpt
                 }

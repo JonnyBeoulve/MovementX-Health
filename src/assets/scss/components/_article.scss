@@ -6,4 +6,9 @@
         background-repeat: no-repeat;
         background-position: center center;
     }
+
+    &-image-preview {
+        max-height: 200px;
+        width: auto;
+    }
 }
