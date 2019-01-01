@@ -5,9 +5,9 @@ import { Link } from 'gatsby'
 /* This is the global header for the app, including a title and menu reference. */
 const Header = (props) => (
     <header id="header" className="alt">
-        <Link to="/" className="logo"><strong>MovementX</strong> <span>Health</span></Link>
+        <Link to="/" className="logo"><strong>MovementX Health</strong></Link>
         <nav>
-            <a className="menu-link" onClick={props.onToggleMenu} href="javascript:;">Menu</a>
+            <a className="menu-link" onClick={props.onToggleMenu} href="javascript:;"></a>
         </nav>
     </header>
 )
