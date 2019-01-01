@@ -8,7 +8,7 @@ const Banner = props => (
                 <h1>Move at your Best.</h1>
             </header>
             <div className="content">
-                <p>Our team of licensed physical therapists are here<br />
+                <p>Our team of licensed physical therapists are here <br />
                 to help you live a happier and healthier life.</p>
                 <ul className="actions">
                     <li><a href="#one" className="button next scrolly">Read More</a></li>

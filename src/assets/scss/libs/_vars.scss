@@ -5,9 +5,9 @@
 
 // Duration.
 	$duration: (
-		menu:				0.35s,
+		menu:				0.5s,
 		transition:			0.2s,
-		banner:				2.5s
+		banner:				2s
 	);
 
 // Size.
@@ -21,11 +21,11 @@
 // Font.
 	$font: (
 		family:				('Montserrat', sans-serif),
-		family-fixed:		('Courier New', monospace),
+		family-fixed:		('Montserrat', sans-serif),
 		weight:				300,
 		weight-bold:		600,
-		letter-spacing:		0.025em,
-		letter-spacing-alt:	0.25em
+		letter-spacing:		0.015em,
+		letter-spacing-alt:	0.15em
 	);
 
 // Palette.

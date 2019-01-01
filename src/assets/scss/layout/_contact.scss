@@ -10,7 +10,6 @@
 
 			> :nth-child(2n - 1) {
 				@include padding(4em, 0, (0, 3em, 0, 0));
-				border-right: solid 1px _palette(border);
 				width: 60%;
 			}
 
@@ -23,7 +22,7 @@
 				padding: 0;
 
 				> * {
-					@include padding(3em, 0, (0, 0, 0, 3em));
+					@include padding(2em, 0, (0, 0, 0, 0));
 					position: relative;
 
 					&:before {
@@ -62,7 +61,7 @@
 
 				> .split {
 					> * {
-						@include padding(3em, 0, (0, 0, 0, 0));
+						@include padding(3em, 0, (2em, 0, 0, 0));
 
 						&:before {
 						}
