@@ -10,7 +10,7 @@ export default function Template({ data }) {
   return (
     <Layout>
       <div id="main" className="alt">
-          <section id="one">
+          <article id="one">
               <div className="inner">
                 <header className="major">
                     <h1>{article.frontmatter.title}</h1>
@@ -25,7 +25,7 @@ export default function Template({ data }) {
                   <p>Tags: {article.frontmatter.tags}</p>
                 </aside>
               </div>
-          </section>
+          </article>
          <section id="two">
             <div className="inner">
                 <header className="major">
