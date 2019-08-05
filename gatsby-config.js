@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "MovementX Health",
-    author: "Jonathan Leack",
-    description: "A professional blog for physical therapy health information."
+    title: 'MovementX Health',
+    author: 'Jonathan Leack',
+    description: 'A professional blog for physical therapy health information.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -27,6 +27,6 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
-    'gatsby-plugin-offline'
+    'gatsby-plugin-offline',
   ],
 }
